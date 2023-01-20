@@ -10,3 +10,19 @@
  *! Делать проверку,что пользователь ввел именно число,
  *! а не произвольный набор символов, не нужно.
  */
+
+
+// let inputValue = prompt('Введите произволльное число');
+// let total = 0;
+// let check = false;
+// do { 
+//     if (inputValue) {
+//         total += Number(inputValue);
+//         check = true;
+//         inputValue = prompt('Введите следующее число')
+//     } else { 
+//         alert(`Сумма чисел равна ${total}`)
+//         check = false;
+//     }
+// } while (check) 
+
