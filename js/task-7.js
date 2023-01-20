@@ -7,3 +7,9 @@
  *? введёт число больше 100, либо не нажмет кнопку
  *? Отмена в prompt
  */
+
+let number = prompt("Enter number greater than 100");
+while (number <= 100 && number) {
+    alert('not a valid number');
+    number = prompt('try again');
+} 
